@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Đăng Ký</title>
+
+    <!--external way-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--internal way-->
+    <style>
+
+    </style>
 </head>
 <body>
-<form>
+<a href="http://google.com.vn">google.com</a>
+<form id="my-form" action="http://google.com" method="post" enctype="multipart/form-data" >
     <h1> Đăng Ký</h1>
     <div>
         <label> Họ Tên </label>
@@ -15,11 +24,11 @@
         <label> E-mail</label>
         <input type="email" name="e-mail">
     </div>
-    <div><label> Mật Khẩu </label>
-        <input type="password" name="mat_khau">
+    <div><label class="green"> Mật Khẩu </label>
+        <input type="password" class="password" name="mat_khau">
     </div>
-    <div><label> Nhập Lại Mật Khẩu </label>
-        <input type="password" name="nhap_lai_mat_khau">
+    <div><label class="green bg-red"> Nhập Lại Mật Khẩu </label>
+        <input type="password" class="password" name="nhap_lai_mat_khau">
     </div>
     <div>
         <label> Giới Tính </label>
@@ -31,7 +40,7 @@
         <input type="radio" name="gioi_tinh" value="3">
     </div>
     <div>
-     <label> Năm Sinh</label>
+     <label class="green bg-red"> Năm Sinh</label>
         <select>
             <option> 1992</option>
             <option> 1993</option>
@@ -45,6 +54,12 @@
         </select>
     </div>
     <button>Đăng Ký</button>
+
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
 </form>
 
 </body>
