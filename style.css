@@ -1,0 +1,52 @@
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#head{
+    height: 50px;
+    width: 100%;
+    background: blue;
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background: purple;
+    margin-top: 10px;
+}
+
+#content{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#content>#left{
+    height: 100px;
+    width: 20%;
+    background: green;
+    float: left;
+}
+
+#content>#middle{
+    height: 100px;
+    width: 55%;
+    background: aqua;
+    float: left;
+    margin-left: 2.5%
+}
+
+#content>#right{
+    width: 20%;
+    background: tomato;
+   float: right;
+    height: 100px;
+}
+#footer{
+    width: 100%;
+    background: darkgray;
+    margin-top: 10px;
+    height: 50px;
+}
