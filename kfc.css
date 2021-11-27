@@ -1,0 +1,145 @@
+#wrapper {
+    width: 968px;
+    margin: 0 auto;
+}
+
+#nav {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 7px 4px 7px 1px rgba(0, 0, 0, 0.25);
+}
+
+#nav > ul > li {
+    list-style: none;
+    float: left;
+}
+
+#nav > ul {
+    margin-left: -20px;
+    position: relative;
+    top: 5px;
+}
+
+#nav > .login {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 20px;
+}
+
+#nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav > img {
+    float: left;
+    margin-left: 180px;
+    margin-top: -15px;
+}
+
+
+#banner {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#main-content {
+    overflow: hidden;
+}
+
+#main-content > .product-item {
+    width: 48%;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+}
+
+#main-content > .product-item:nth-child(even) {
+    margin-left: 4%;
+}
+
+#main-content > .product-item > img {
+    margin-top: 10px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#main-content > .product-item > h4 {
+    margin-top: 5px;
+}
+
+#main-content > .product-item > div {
+    margin-top: -20px;
+    color: red;
+}
+
+#banner > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#wrapper > #main-content {
+    width: 100%;
+}
+
+#pagination {
+    margin-top: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+#pagination > ul{
+    margin: 0px;
+    padding:0px;
+}
+#pagination > ul > li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+#pagination >ul >li:first-child{
+    margin-left: 0;
+}
+
+#pagination > ul > li > a {
+    padding: 5px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: black;
+
+}
+
+#footer {
+    width: 100%;
+    margin-top: 20px;
+}
+#footer>.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#footer{
+    background: #FFFAE0;
+    overflow: hidden;
+}
+#footer>div{
+    float: left;
+    margin-left: 100px;
+}
+#footer>.bct{
+    right: 20px;
+    width: 200px;
+    position: relative;
+    float:right;
+    top: 10px;
+}
